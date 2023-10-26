@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.elecshop.com</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="" height="50px" width="100"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="category.html">Category</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off!</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items"></div>
+        <h4>Total: ₹<span id="cart-total">0</span></h4>
+    </section>
+    
+    <section id="feature" class="section-p1">
+        <div class="fe-box" >
+            <img src="img/f1.png" alt="na">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box" >
+            <img src="img/f2.png" alt="na">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box" >
+            <img src="img/f3.png" alt="na">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box" >
+            <img src="img/f4.png" alt="na">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box" >
+            <img src="img/f5.png" alt="na">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box" >
+            <img src="img/f6.png" alt="na">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+
+    <section id="filter-search" class="section-p1">
+        <input type="text" id="search-input" placeholder="Search products...">
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="samsung">Samsung</option>
+            <option value="Boat">Boat</option>
+            <option value="Xiaomi">Xiaomi</option>
+            <option value="Apple">Apple</option>
+            <option value="Dell">Dell</option>
+            <option value="Hewlett Packard">Hewlett Packard</option>
+        </select>
+        <button id="filter-button">Filter</button>
+    </section>
+    
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Latest Collection With Modern Technology</p>
+        <div class="pro-container">
+            <a href="productdetails.html">
+            <div class="pro">
+                <img src="img/pro1.webp" alt="">
+                <div class="des">
+                    <span>samsung</span>
+                    <h5>Samsung Galaxy A23 5G|8gb</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹22000</h4>
+                </a>
+                </div>
+            </div>
+            <a href="pd2.html">
+            <div class="pro">
+                <img src="img/pro2.webp" alt="" height="190px" width="100%">
+                <div class="des">
+                    <span>Boat</span>
+                    <h5>boAt Storm call 1.69 inch HD display</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1599</h4>
+                </a>
+                </div>
+            </div>
+            <a href="pd3.html">
+            <div class="pro">
+                <img src="img/pro3.jpeg" height="180px" alt="">
+                <div class="des">
+                    <span>Xiaomi</span>
+                    <h5>Redmi 12 5G (Jade Black, 128 GB)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹12499</h4>
+                </a>
+                </div>
+            </div>
+            <a href="pd4.html">
+            <div class="pro">
+                <img src="img/pro4.webp" height="180px" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple iPhone 14 (128 GB) - Starlight</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹67999</h4>
+                </a>
+                </div>
+            </div>
+            <a href="pd5.html">
+            <div class="pro">
+                <img src="img/pro5.webp" height="180px" alt="">
+                <div class="des">
+                    <span>Dell</span>
+                    <h5>Dell Inspiron 3000 Core i3 11th Gen</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹38990</h4>
+                </a>
+                </div>
+            </div>
+            <a href="pd6.html">
+            <div class="pro">
+                <img src="img/pro6.jpg" height="180px" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple AirPods(2nd Generation)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹11999</h4>
+                </a>
+                </div>
+            </div>
+            <a href="pd7.html">
+            <div class="pro">
+                <img src="img/pro7.webp" height="180px" alt="">
+                <div class="des">
+                    <span>Boat</span>
+                    <h5>boat Rockerz 450 Bluetooth</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1499</h4>
+                </a>
+                </div>
+            </div>
+            <a href="pd8.html">
+            <div class="pro">
+                <img src="img/pro8.webp" height="180px" alt="">
+                <div class="des">
+                    <span>Hewlett Packard</span>
+                    <h5>HP 65W AC Laptops Charger Adapter 4.5mm</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1045</h4>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up to <span>70% Off</span> - All Devices & Accessories</h2>
+        <button class="normal">Explore More</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Latest Collection With Modern Technology</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/n1.jpg"  height="200px">
+                <div class="des">
+                    <span>Boat</span>
+                    <h5>boAt Rockerz 450 Bluetooth</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1,499</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/pro2.webp" alt="" height="190px" width="100%">
+                <div class="des">
+                    <span>Boat</span>
+                    <h5>boAt Storm call 1.69 inch HD display</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1,599</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/pro3.jpeg" height="180px" alt="">
+                <div class="des">
+                    <span>Xiaomi</span>
+                    <h5>Redmi 12 5G (Jade Black, 128 GB)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹12,499</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/pro4.webp" height="180px" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple iPhone 14 (128 GB) - Starlight</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹67,999</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/pro5.webp" height="180px" alt="">
+                <div class="des">
+                    <span>Dell</span>
+                    <h5>Dell Inspiron 3000 Core i3 11th Gen</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹38,990</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/pro6.jpg" height="180px" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple AirPods(2nd Generation)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹11,999</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/pro7.webp" height="180px" alt="">
+                <div class="des">
+                    <span>Boat</span>
+                    <h5>boat Rockerz 450 Bluetooth</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1,499</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/pro8.webp" height="180px" alt="">
+                <div class="des">
+                    <span>Hewlett Packard</span>
+                    <h5>HP 65W AC Laptops Charger Adapter 4.5mm</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1,045</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best classic accessories are on sale at elecshop</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2"  >
+            <h4>Samsung Fare</h4>
+            <h2>upcoming season</h2>
+            <span>The best upcoming deals at elecshop</span>
+            <button class="white">Learn More</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" alt="" height="50px" width="100">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>#1116,Kalka road,Rajpura,PUNJAB</p>
+            <p><strong>Phone: </strong>+91 78149-41831/+91 70874-70980</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About us</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/app.jpg" alt="">
+                <img src="img/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>&#169 2021, elecshop - Ecommerce website</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('search-input');
+            const categoryFilter = document.getElementById('category-filter');
+            const filterButton = document.getElementById('filter-button');
+            const products = document.querySelectorAll('.pro');
+    
+            filterButton.addEventListener('click', function () {
+                const searchTerm = searchInput.value.toLowerCase();
+                const selectedCategory = categoryFilter.value.toLowerCase();
+    
+                products.forEach(function (product) {
+                    const productTitle = product.querySelector('h5').textContent.toLowerCase();
+                    const productCategory = product.querySelector('span').textContent.toLowerCase();
+    
+                    const titleMatch = productTitle.includes(searchTerm);
+                    const categoryMatch = selectedCategory === 'all' || productCategory === selectedCategory;
+    
+                    if (titleMatch && categoryMatch) {
+                        product.style.display = 'block';
+                    } else {
+                        product.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const products = document.querySelectorAll('.pro');
+        const cartItems = document.getElementById('cart-items');
+        const cartTotal = document.getElementById('cart-total');
+        let cart = [];
+
+        products.forEach(function (product) {
+            const addToCartButton = document.createElement('button');
+            addToCartButton.textContent = 'Add to Cart';
+            addToCartButton.addEventListener('click', function () {
+                const productTitle = product.querySelector('h5').textContent;
+                const productPrice = parseInt(product.querySelector('h4').textContent.slice(1));
+                addToCart(productTitle, productPrice);
+            });
+
+            product.appendChild(addToCartButton);
+        });
+
+        function addToCart(title, price) {
+            cart.push({ title, price });
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            cartItems.innerHTML = '';
+            let total = 0;
+
+            cart.forEach(function (item) {
+                const cartItem = document.createElement('div');
+                cartItem.classList.add('cart-item');
+                cartItem.innerHTML = `
+                    <span>${item.title}</span>
+                    <span>₹${item.price}</span>
+                `;
+
+                cartItems.appendChild(cartItem);
+                total += item.price;
+            });
+
+            cartTotal.textContent = total;
+        }
+    });
+
+
+function showNotification() {
+    const notification = document.getElementById('notification');
+    notification.style.display = 'block';
+
+    setTimeout(function () {
+        notification.style.display = 'none';
+    }, 2000); // Hide the notification after 2 seconds (adjust as needed)
+}
+
+function addToCart(title, price) {
+    cart.push({ title, price });
+    updateCartUI();
+    showNotification(); // Call the showNotification function
+}
+
+
+
+    </script>
+    
+</body>
+</html>

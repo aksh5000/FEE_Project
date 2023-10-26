@@ -1,0 +1,55 @@
+//Declares x ax a String object
+var x = new String();
+//Declares y as a Number object
+var x = new Number();
+//Declares z as a Boolean object
+var x = new Boolean();
+
+
+JAVASCRIPT SCOPE:-
+
+In Javascript, scope is the set of variables , objects, and functions you have access to. 
+
+
+THE LIFETIME OF JAVASCRIPT VARIABLES
+
+The lifetime of a javascript variable starts when it is declared .
+Local variables are deleted when the function is completed.
+Global variables are deleted when you close the page.
+
+
+FUNCTION ARGUMENTS
+
+Function arguments (parameters) work as local variables inside functions.
+
+
+
+
+#JAVSCRIPT EVENTS
+
+HTML Events:-
+
+An HTML event can be something the browser does, or something a user does.
+
+Here are some examples of HTML events:-
+1.An HTML web page has finished loading
+2.|| input field was changed
+3.|| button was clicked
+
+Often, when events happen, you may want to do something.
+
+Javascript lets you execute code when events .........to be continued
+
+
+
+
+
+EVENT         DESCRIPTION
+
+Onchange      An HTML element has been changed
+
+Onclick       The user clicks an HTML element
+
+onmouseover   The user moves the mouse over an HTML element
+
+............to be continued
